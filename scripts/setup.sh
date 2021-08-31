@@ -33,3 +33,6 @@ nodenv global 14.17.5
 # railsのセットアップ
 bundle
 rbenv rehash
+rails db:create
+rails db:migrate
+rails db:seed
