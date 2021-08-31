@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## SetUp
+```bash
+git clone https://github.com/MrFuku/rails5_2_6.git
+cd rails5_2_6
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Assuming Ubuntu 20.04
+# Set up rbenv, nodenv and other packages
+source ./scripts/setup.sh
+```
